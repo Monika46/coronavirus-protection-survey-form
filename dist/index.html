@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Coronavirus protection survey form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+<h1 id="title" class="text_center">Coronavirus protection survey form</h1>
+  <p id="description" class="text_center">Thank you for sharing your opinion with us.</p>
+<body class="backg">
+  <div id="firstbox">
+  <form id="survey-form">
+    <div class="form-group shad">
+      <label id="name-label" for="name">Name</label>
+      <input type="text" name="name" id="name" class="datastuff" placeholder="Enter your name" required/>
+    </div>
+    <div class="form-group shad">
+      <label for="email" id="email-label">Email</label>
+      <input type="email" id="email" name="email" class="datastuff" placeholder="Enter your email address" required></div>
+    <div class="form-group shad">
+    <label for="country" id="country">Country</label>
+    <input type="text" id="country" name="country" class="datastuff" placeholder="Enter your country of residence" required></div>
+    <div class="form-group shad">
+  <label for="age" id="number-label">Age</label>
+      <input type="number" id="number" name="age" min="1" max="100" class="datastuff" placeholder="Enter your age" required></div>
+    <div class="form-group shad">
+      <p style="font-style:normal">What is your highest degree or level of school completed?</p>
+<select id="dropdown" name="education" required class="datastuff">
+  <option disabled selected value>Select your education level</option>
+  <option value="Elementary school">Elementary school</option>
+  <option value="High school">High school</option>
+  <option value="Technical or occupational certificate">Technical or occupational certificate</option>
+  <option value="Associate degree">Associate degree</option>
+  <option value="Some college coursework completed">Some college work completed</option>
+  <option value="Bachelor degree">Bachelor degree</option>
+  <option value="Masters degree">Masters degree</option>
+  <option value="Doctorate">Doctorate</option>
+  <option value="Professional">Professional</option>
+  <option value="Other">Other</option>
+      </select>
+  </div>
+    <div class="form-group shad">
+      <p style="font-style:normal">Do you believe that the coronavirus exists?</p>
+      <select id="dropdown" name="question" required class="datastuff">
+        <option disabled selected value>Please select</option>
+        <option value="Yes">Yes.</option>
+        <option value="No">No.</option>
+        <option value="Not sure.">Not sure.</option>
+      </select>
+    </div>
+    <div class="form-group shad">
+      <p style="font-style:normal">Do you wear a face mask to prevent a potential spread of the virus and to protect others?</p>
+      <select id="dropdown" name="question" required class="datastuff">
+        <option disabled selected value>Please select</option>
+        <option value="Yes">Yes.</option>
+        <option value="No">No.</option>
+        <option value="Sometimes, not all the time.">Sometimes, not all the time.</option>
+      </select>
+    </div>
+    <div class="form-group shad">
+      <p style="font-style:normal">Do you know directly someone who caught the coronavirus?</p>
+      <select id="dropdown" name="question" required class="datastuff">
+        <option disabled selected value>Please select</option>
+        <option value="Yes, they had only mild symptoms.">Yes, they had only mild symptoms.</option>
+        <option value="Yes, they got seriously ill.">Yes, they got seriously ill.</option>
+        <option value="Yes, I know someone who died.">Yes, I know someone who died.</option>
+        <option value="No.">No.</option>
+      </select>
+    </div>
+    <div class="form-group shad">
+      <p style="font-style:normal">Would you agree to get regularly tested in order to flatten the curve (until the vaccine arrives)?</p>
+      <select id="dropdown" name="question" required class="datastuff">
+        <option disabled selected value>Please select</option>
+        <option value="Yes">Yes.</option>
+        <option value="No">No.</option>
+        <option value="Not sure.">Not sure.</option>
+      </select>
+    </div>
+    <div class="form-group shad">
+      <p style="font-style:normal">Will you get vaccinated against the coronavirus?</p>
+      <select id="dropdown" name="question" required class="datastuff">
+        <option disabled selected value>Please select</option>
+        <option value="Yes">Yes.</option>
+        <option value="No">No.</option>
+        <option value="Not sure.">Not sure.</option>
+      </select>
+    </div>
+    <div class="form-group shad">
+       <p style="font-style:normal">Are you at increased risk for severe illnes that could be caused by the coronavirus (do you have any underlying condition)?</p></div>
+       <div><label for="condition"><input type="radio" name="condition" value="yes" class="in-radio">Yes.</label></div>
+       <div><label for="condition"><input type="radio" name="condition" value="no" class="in-radio">No.</label></div>
+        <div><label for="condition"><input type="radio" name="condition" value="not" class="in-radio">I don't know.</label></div> 
+ <div class="form-group shad">
+   <p style="font-style:normal">Do you travel regularly?<span class="addtext"> Please check all that apply.</span></p></div>
+      <div><label><input name="travel" value="plane" type="checkbox" class="in-checkbox"/>Yes, by plane.</label></div>
+    <div>
+   <label><input name="travel" value="train" type="checkbox"
+                 class="in-checkbox"/>Yes, by train or bus.</label></div>
+      <div><label><input name="travel" value="car" type="checkbox"
+                         class="in-checkbox"/>Yes, by car.</label></div>
+      <div><label><input name="travel" value="walk" type="checkbox"
+                         class="in-checkbox"/>No.</label></div>
+             <div class="form-group"><p style="font-style:normal" class="shad">Comments</p><textarea id="comments" name="comment" class="textstuff" placeholder="Enter your comments here:"></textarea></div><br>
+  <div class="form-group"><button type="submit" id="submit" class="submit_button" style="font-weight:bold">Submit</button></div></form>
+</div>
+</main>
+          
+          </body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

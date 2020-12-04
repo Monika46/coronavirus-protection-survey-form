@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+
+#title{
+  color: gray;
+  font-family: Source Sans Pro;
+}
+.datastuff{
+  margin-left: auto;
+  margin-right: auto;
+  width: 35em;
+}
+  
+p{
+  font-family: Source Sans Pro;
+  font-style: italic;
+}
+.form-group {
+  font-size: 18px;
+  margin: 0px auto 10px auto;
+  padding: 0px 0px 0px 10px;
+}
+.in-radio{
+ display: inline-block;
+ margin-right: 1px;
+ min-height: 0.9rem;
+ min-width: 1rem;
+ font-size: 10px;
+}
+.in-checkbox{
+ display: inline-block;
+ margin-right: 1px;
+ min-height: 0.9rem;
+ min-width: 1rem;
+ font-size: 10px;
+  }
+.shad{
+  color: white;
+  text-shadow: 2px 2px 6px black, 0 0 25px blue, 0 0 5px green;
+}
+.backg{
+  background-color: #01a1b1;
+}
+.container{
+  width: 100%;
+  margin: 5px auto 5px auto;
+}
+.textstuff{
+  min-height: 100px;
+  width: 65%;
+  padding: 1px;
+  resize: horizontal;
+  font-size: 20px;
+}
+#survey-form{
+  width: 100%;
+}
+.addtext{
+  font-size: 80%;
+}
+
+.submit_button{
+  display: block;
+  width: 25%;
+  height: 58px;
+  font-family: Times New Roman;
+  background-color: #7bb4bd;
+  color: #dfe8f1;
+  font-size: 20px;
+  border-radius: 2%;
+  cursor: pointer;
+  margin-right: auto;
+  margin-left: auto;
+}
+.text_center{
+  text-align: center;
+}
+label {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+#firstbox{
+  background-color: #f1d9bd;
+  padding: 10px;
+  margin: auto 200px auto 200px;
+}
